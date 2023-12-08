@@ -9,3 +9,4 @@ class ThingForm(forms.ModelForm):
             'description': forms.Textarea(attrs={'cols': 40, 'rows': 5}),
             'quantity': forms.NumberInput()
         }
+        
